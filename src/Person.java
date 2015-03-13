@@ -2,6 +2,7 @@ public class Person {
 	private int id;
 	private String name;
 	private String lastName;
+	private String tel;
 
 	public int getId() {
 		return id;
@@ -26,5 +27,15 @@ public class Person {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
+
+	public String getTel() {
+		return tel;
+	}
+
+	public void setTel(String tel) {
+		this.tel = tel;
+	}
+	
+	
 
 }
