@@ -1,5 +1,7 @@
 public class Person {
 	private int id;
+	private String name;
+	private String lastName;
 
 	public int getId() {
 		return id;
@@ -17,6 +19,12 @@ public class Person {
 		this.name = name;
 	}
 
-	private String name;
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
 
 }
